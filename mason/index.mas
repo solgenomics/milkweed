@@ -7,10 +7,33 @@ $show_accept_dialog => undef
 <center>
 <br/>
 <!-- & homepage/carousel.mas & -->
-<br/>
+<h1>Welcome to MilkweedBase</h1>
 </center>
+<br />
+<table><tr><td>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Asclepiascommon.JPG" width="450" /><br />
+<font size="1">A milkweed plant (Source: Wikipedia)</font>
+<br />
+<div style="margin-left:60px"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Oleandrin-skeletal.svg" width="300" /><br />
+<font size="1">A cardenolide (Source: Wikipedia)</font>
+</div>
+</td>
+<td>
+<div style="margin-left:30px">
+<div>
+<i>Asclepias syriaca</i>, known as the common milkweed, is found throughout northeastern and southeastern parts of the United States. Asclepias produce cardenolides, a subclass of cardiac glycosides that contain steroidal toxins poisonous to insects and animals when consumed. There is a lack of high quality genomic information regarding <i>A. syriaca</i> to explore the cardenolide biosynthetic pathway and to comparatively analyze against similar species that do not produce cardiac glycosides.
+</div>
+<br />
+<div>
+A previously published <i>A. syriaca</i> genome was sequenced using Illumina sequencing with 0.5x sequence coverage in order to demonstrate that small amounts of short reads can produce a genomic resource for the community (Straub, et al. 2011). The Jander lab sequenced the genome using PacBio with >300x coverage, generating longer reads, and the genome was assembled using Falcon Assembler. Long read technology is better at spanning repeat regions than short read technologies, resulting in more contiguous assemblies. The PacBio assembly was polished to create a refined <i>A. syricaca</i> genome, which was used to identify gene families. The new assembly will provide more genomic information for annotation and gene prediction, and will contribute more information for further genomic research concerning milkweeds, its evolution, and similar plants.
+</div>
+</div>
+<br/>
+</td>
+</tr>
+</table>
 
 <br/>
 
 
-<& homepage/github_pullrequests.mas &>
+<!-- & homepage/github_pullrequests.mas & -->
