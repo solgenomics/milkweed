@@ -8,6 +8,9 @@ $show_accept_dialog => undef
 <br/>
 <!-- & homepage/carousel.mas & -->
 <h1>Welcome to MilkweedBase</h1>
+
+<& /homepage/usage_popup.mas &>
+
 </center>
 <br />
 <table><tr><td>
