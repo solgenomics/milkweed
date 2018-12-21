@@ -14,11 +14,17 @@ $show_accept_dialog => undef
 </center>
 <br />
 <table><tr><td>
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Asclepiascommon.JPG" width="450" /><br />
-<font size="1">A milkweed plant (Source: Wikipedia)</font>
+
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2427, size=>"medium" &><br />
+
+<font size="1">A milkweed plant (Image Credit: Anurag Agrawal)</font>
 <br />
-<div style="margin-left:60px"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Oleandrin-skeletal.svg" width="300" /><br />
+
+<& /image/embed_image.mas, dbh=>$schema->storage->dbh(), image_id=>2426, size=>"medium" &><br />
 <font size="1">Structure of aspecioside, a milkweed cardiac glycoside</font>
+
+
+
 </div>
 </td>
 <td>
