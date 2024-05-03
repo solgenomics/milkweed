@@ -3,18 +3,17 @@ version: "3.7"
 services:
   breedbase:
     image: breedbase/breedbase:latest
-    depends_on:
 
-    container_name: breedbase_web_erysimum
+    container_name: breedbase_web_milkweed
     ports:
       - 8101:8080
     volumes:
       - type: bind
-        source: /export/prod/public_erysimum
+        source: /export/prod/public_milkweed
         target: /home/production/public
       - type: bind
-        source: empty_db_without.test_users.sql
-        target: /home/production/empty_dump.sql
+        source: /export/prod/public_milkweed/milkweed_blastdbs
+        target: /home/production/blast
       - type: bind
         source: sgn_local.conf
         target: /home/production/cxgn/sgn/sgn_local.conf
@@ -22,13 +21,8 @@ services:
         source: db_dumps
         target: /db_dumps
       - type: bind
-        source: crontab
-        target: /etc/crontab
-      - type: bind
         source: bash_history
         target: /home/production/.bash_history
-
-
 volumes:
   webdata:
   dbdata:
