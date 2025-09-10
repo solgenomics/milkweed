@@ -23,6 +23,9 @@ services:
       - type: bind
         source: bash_history
         target: /home/production/.bash_history
+      - type: bind
+        source: mason
+        target: /home/production/cxgn/milkweed/mason
 volumes:
   webdata:
   dbdata:
